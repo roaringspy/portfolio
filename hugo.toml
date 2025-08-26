@@ -1,0 +1,35 @@
+baseURL = "https://param.lol"
+languageCode = "en-us"
+title = "Param Shah"
+theme = "archie"
+
+[pagination]
+  pageSize = 5
+
+[params]
+  mode = "dark" 
+  subtitle = "Computer Science Engineer specializing in Information Security."
+  customCss = ["css/custom.css"]
+  # Social Icons Data for the footer
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/roaringspy"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/paramushah/"
+
+# Main menu navigation
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects"
+  weight = 2
+
+[[menu.main]]
+  name = "Experience"
+  url = "/experience"
+  weight = 3

@@ -1,0 +1,13 @@
+/* Change the font size for the main body text */
+body {
+    font-size: 1.2rem; /* The default is 1rem. Try 1.2rem or higher if you want it even bigger. */
+}
+
+/* You can also adjust heading sizes if you want */
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}

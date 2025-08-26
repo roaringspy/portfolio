@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Param Shah</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Param Shah</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Penetration Testing (Metasploitable 2)</title>
+      <link>http://localhost:1313/projects/pen-testing-metasploitable/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/pen-testing-metasploitable/</guid>
+      <description>&lt;p&gt;Conducted a comprehensive penetration test against a Metasploitable 2 virtual machine to identify and exploit common vulnerabilities.&lt;/p&gt;&#xA;&lt;h3 id=&#34;process--tools&#34;&gt;Process &amp;amp; Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Performed initial reconnaissance and vulnerability assessments using various &lt;strong&gt;Nmap&lt;/strong&gt; NSE scripts.&lt;/li&gt;&#xA;&lt;li&gt;Targeted and exploited weak services, including SMB, MySQL, FTP, and SSH, to gain initial access and escalate privileges.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Privilege Escalation (Samba)</title>
+      <link>http://localhost:1313/projects/privilege-escalation-samba/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/privilege-escalation-samba/</guid>
+      <description>&lt;p&gt;Demonstrated a privilege escalation attack by exploiting a known vulnerability in a Samba share configuration on a Linux target.&lt;/p&gt;&#xA;&lt;h3 id=&#34;process--tools&#34;&gt;Process &amp;amp; Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Identified the vulnerable Samba version and misconfiguration allowing for remote code execution.&lt;/li&gt;&#xA;&lt;li&gt;Used the &lt;strong&gt;Metasploit Framework&lt;/strong&gt; to gain a low-privilege shell and subsequently exploited the vulnerability to gain root file system access.&lt;/li&gt;&#xA;&lt;li&gt;Documented and implemented security measures to patch the vulnerability and prevent unauthorized access.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Password Cracking</title>
+      <link>http://localhost:1313/projects/password-cracking-labs/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/password-cracking-labs/</guid>
+      <description>&lt;p&gt;Executed a series of labs to crack various password hashes and bypass authentication on live services, showcasing proficiency in password cracking methodologies.&lt;/p&gt;&#xA;&lt;h3 id=&#34;tools-utilized&#34;&gt;Tools Utilized&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;John the Ripper &amp;amp; Hashcat&lt;/strong&gt;: Performed dictionary and brute-force attacks against captured password hashes (crypt).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hydra &amp;amp; Metasploit&lt;/strong&gt;: Simulated online brute-force attacks against live FTP and SSH services in a controlled lab environment.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>MITM Attack (ARP Spoofing)</title>
+      <link>http://localhost:1313/projects/mitm-attack-arp-spoofing/</link>
+      <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mitm-attack-arp-spoofing/</guid>
+      <description>&lt;p&gt;Successfully executed a man-in-the-middle (MITM) attack within a local network to intercept and analyze traffic.&lt;/p&gt;&#xA;&lt;h3 id=&#34;process--tools&#34;&gt;Process &amp;amp; Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Utilized &lt;strong&gt;dsniff&lt;/strong&gt; to perform ARP spoofing, redirecting the flow of network traffic through an attacker-controlled machine.&lt;/li&gt;&#xA;&lt;li&gt;Captured and analyzed the intercepted traffic using &lt;strong&gt;Wireshark&lt;/strong&gt; to identify sensitive information transmitted in cleartext.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Social Engineering Simulation</title>
+      <link>http://localhost:1313/projects/social-engineering-simulation/</link>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/social-engineering-simulation/</guid>
+      <description>&lt;p&gt;Designed and executed a simulated phishing attack to demonstrate the effectiveness of social engineering tactics in capturing user credentials.&lt;/p&gt;&#xA;&lt;h3 id=&#34;process--tools&#34;&gt;Process &amp;amp; Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Used the &lt;strong&gt;Social-Engineer Toolkit (SEToolkit)&lt;/strong&gt; to clone a legitimate website and create a convincing phishing page.&lt;/li&gt;&#xA;&lt;li&gt;Deployed the attack within a controlled environment to capture credentials, highlighting the importance of user awareness and security training.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Vulnerability Scanning</title>
+      <link>http://localhost:1313/projects/vulnerability-scanning-nessus/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/vulnerability-scanning-nessus/</guid>
+      <description>&lt;p&gt;Performed an automated vulnerability scan against a hardened Linux server and its web applications to identify potential security weaknesses.&lt;/p&gt;&#xA;&lt;h3 id=&#34;process--tools&#34;&gt;Process &amp;amp; Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Configured and ran a comprehensive scan using &lt;strong&gt;Nessus&lt;/strong&gt; to test for thousands of known vulnerabilities, misconfigurations, and missing patches.&lt;/li&gt;&#xA;&lt;li&gt;Analyzed the generated report to prioritize findings based on severity and provided actionable recommendations for remediation.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Random Color Palette Generator</title>
+      <link>http://localhost:1313/projects/random-color-palette-generator/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/random-color-palette-generator/</guid>
+      <description>&lt;p&gt;Developed a web-based tool that allows users to generate a random color palette.&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The user can specify the number of colors they want in the palette.&lt;/li&gt;&#xA;&lt;li&gt;The application generates visually appealing color combinations and provides their hex codes for use in other projects.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>AWS</title>
+      <link>http://localhost:1313/tools/aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>http://localhost:1313/tools/azure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bash</title>
+      <link>http://localhost:1313/tools/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/tools/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:1313/tools/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hashcat</title>
+      <link>http://localhost:1313/tools/hashcat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/hashcat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>John the Ripper</title>
+      <link>http://localhost:1313/tools/john-the-ripper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/john-the-ripper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tools/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Metasploit</title>
+      <link>http://localhost:1313/tools/metasploit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/metasploit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nmap</title>
+      <link>http://localhost:1313/tools/nmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/nmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postfix</title>
+      <link>http://localhost:1313/tools/postfix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/postfix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Professional Experience</title>
+      <link>http://localhost:1313/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/</guid>
+      <description>&lt;h3 id=&#34;cybersecurity-intern&#34;&gt;Cybersecurity Intern&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;[Techne AI]&lt;/strong&gt; | [Pune, India]&#xA;&lt;em&gt;May 2025 – July 2025&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Deployed and managed SIEM agents on over 100 endpoints (Windows, Ubuntu, macOS), enabling centralized monitoring and log collection across multiple departments.&lt;/li&gt;&#xA;&lt;li&gt;Configured custom security policies and developed decoders/rules, contributing to the detection and analysis of over 50,000 daily security alerts.&lt;/li&gt;&#xA;&lt;li&gt;Integrated VirusTotal API and implemented automated email notification channels, enhancing incident response and real-time threat intelligence.&lt;/li&gt;&#xA;&lt;li&gt;Authored technical documentation for agent deployment, alert configuration, and integration processes to facilitate team knowledge transfer.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>PuTTY</title>
+      <link>http://localhost:1313/tools/putty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/putty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tools/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TightVNC</title>
+      <link>http://localhost:1313/tools/tightvnc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/tightvnc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VirtualBox</title>
+      <link>http://localhost:1313/tools/virtualbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/virtualbox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wazuh</title>
+      <link>http://localhost:1313/tools/wazuh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/wazuh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/tools/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireshark</title>
+      <link>http://localhost:1313/tools/wireshark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/wireshark/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

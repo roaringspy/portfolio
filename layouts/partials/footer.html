@@ -1,0 +1,10 @@
+<footer>
+    <div class="social-icons">
+    {{ range .Site.Params.social }}
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name | title }}</a>
+    {{ end }}
+    </div>
+    <div class="copyright">
+        &copy; {{ now.Year }} {{ .Site.Title }}
+    </div>
+</footer>

@@ -1,0 +1,79 @@
+/* Change the font size for the main body text */
+body {
+    font-size: 1.2rem; /* The default is 1rem. Try 1.2rem or higher if you want it even bigger. */
+}
+
+/* You can also adjust heading sizes if you want */
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+/* Styling for the new homepage sections */
+.tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tool-logo {
+    width: 50px;
+    height: 50px;
+    filter: invert(1);
+    /* Add these two lines */
+    background: none !important;
+    border: none !important;
+}
+
+.projects-list .project-item {
+    margin-bottom: 2rem;
+}
+
+.view-all {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* New Footer Layout */
+footer {
+    display: flex;
+    justify-content: center; /* This centers the social links */
+    align-items: center;
+    position: relative; /* Required for positioning the copyright */
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 1px solid #333;
+}
+
+.social-icons a {
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.copyright {
+    position: absolute; /* Takes the copyright out of the normal flow */
+    right: 0; /* Aligns it to the far right of the footer */
+    font-size: 0.9rem;
+    color: #888;
+}
+/* Increase spacing on list pages like /projects */
+.main-content ul > li {
+    margin-bottom: 1.5rem;
+}
+/* Fix for overlapping title on project pages */
+.main-content .post-title, .main-content h1 {
+    margin-bottom: 2rem; /* Pushes the content below the title down */
+}

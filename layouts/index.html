@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="container">
+    <div class="homepage-content">
+        <div class="intro-section">
+            <h1>Param Shah, 21</h1>
+            <p>Computer Science Engineer specializing in Information Security.</p>
+        </div>
+
+        <div class="experience-section">
+            <h2>Experience</h2>
+            {{ with .Site.GetPage "/experience" }}
+            <div class="experience-item">
+                {{ .Content }}
+            </div>
+            {{ end }}
+        </div>
+
+        <div class="tools-section">
+            <h2>Tools & Technologies</h2>
+            <p>
+                {{ $tools := where .Site.RegularPages "Section" "tools" }}
+                {{ range $index, $element := $tools }}
+                {{ .Title }}{{ if ne $index (sub (len $tools) 1) }}, {{ end }}
+                {{ end }}
+            </p>
+        </div>
+
+        <div class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-list">
+                {{ $pages := where .Site.RegularPages "Section" "projects" }}
+                {{ range first 3 $pages }}
+                <div class="project-item">
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <p>{{ .Summary }}</p>
+                    <a href="{{ .Permalink }}" class="read-more">Read more →</a>
+                </div>
+                {{ end }}
+            </div>
+            <a href="/projects" class="view-all">View all projects...</a>
+        </div>
+    </div>
+</div>
+{{ end }}
