@@ -6,8 +6,15 @@
     <description>Recent content on Param Shah</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>File Integrity Monitor (Python)</title>
+      <link>http://localhost:1313/projects/file-integrity-monitor/</link>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/file-integrity-monitor/</guid>
+      <description>&lt;p&gt;A custom Python-based tool to detect unauthorized file modifications in real-time.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-Time Monitoring&lt;/strong&gt;: Implemented the watchdog library to monitor file system events including creation, modification, deletion, and renaming.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hash-Based Detection&lt;/strong&gt;: Utilized SHA256 hashing to detect unauthorized changes by comparing current file hashes against a stored baseline in a JSON file.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customizable Patterns&lt;/strong&gt;: Enabled users to define include and exclude filename patterns for targeted and efficient file tracking.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Penetration Testing (Metasploitable 2)</title>
       <link>http://localhost:1313/projects/pen-testing-metasploitable/</link>
